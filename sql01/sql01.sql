@@ -87,6 +87,7 @@ order by length(department_name) desc;
 
 select upper(country_name)
 from countries
+where region_id>1
 order by country_name asc;
 
 /*문제10.
